@@ -14,6 +14,9 @@ body {
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     
 }
 
@@ -23,8 +26,8 @@ body {
 }
 
 img {
-    width: 100vh;
-    height: 100vh;
+    width: 100%;
+    height: auto;
 }
 
 .div-sec {
@@ -37,6 +40,7 @@ img {
     padding: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 20px;
 }
@@ -47,7 +51,7 @@ h1 {
 
 .input-value,
 .input-result {
-    width: 300px;
+    width: 100%;
     height: 40px;
     border: 1px solid #000;
     border-radius: 20px;
@@ -60,7 +64,7 @@ h1 {
 
 button {
     background-color: #3A9E72;
-    width: 100px;
+    width: 100%;
     height: 40px;
     border: 1px solid #000;
     border-radius: 20px;
@@ -72,3 +76,4 @@ button {
 button:hover {
     opacity: 0.9;
 }
+
