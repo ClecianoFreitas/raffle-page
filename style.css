@@ -79,6 +79,6 @@ button:hover {
 
 @media(max-width: 360px){
     body{
-        height: 100vh;
+        height: 100%;
     }
 }
