@@ -6,14 +6,15 @@
 }
 
 body {
-    width: 100vw;
+    height: 100vh;
+    width: 100vw;    
 }
 
 .div-princ {
     position: relative;
     display: flex;
     align-items: center;
-    flex-direction: row-reverse;
+    
 }
 
 .img-trevo {
@@ -22,14 +23,13 @@ body {
 }
 
 img {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
 .div-sec {
     position: absolute;
-    height: 600px;
-    width: 400px;
+    right: 10px;
     margin-right: 10%;
     background-color: aliceblue;
     border: 1px solid #000;
@@ -74,24 +74,13 @@ button:hover {
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 360px) {
     .div-sec {
-        height: 90%;
-        width: 90%;
-        margin-right: 30%;
-    }
-
-    .input-value,
-    .input-result {
-        width: 200px;
-        height: 30px;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    .input-result {
-        padding-top: 4px;
+        position: absolute;
+        right: 18px;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        gap: 25px;
     }
 }
