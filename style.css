@@ -74,11 +74,11 @@ button:hover {
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 720px) {
     .div-sec {
-
         height: 550px;
-        width: 300px;
+        width: 350px;
+        margin-right: 25%;
     }
 
     .input-value,
