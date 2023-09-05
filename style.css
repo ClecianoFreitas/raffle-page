@@ -23,7 +23,7 @@ body {
 }
 
 img {
-    width: 100%;
+    width: 100vh;
     height: 100vh;
 }
 
@@ -77,7 +77,7 @@ button:hover {
 @media (max-width: 768px) {
     .div-sec {
         position: absolute;
-        right: 120px;
+        right: 0;
         display: flex;
         gap: 25px;
     }
@@ -86,10 +86,10 @@ button:hover {
 @media (max-width: 360px) {
     .div-sec {
         position: absolute;
-        right: 18px;
+        right: 0;
         margin: 0;
-        padding: 10px;
-        display: flex;
-        gap: 25px;
+        padding: 0;
+        display: static;
+        
     }
 }
