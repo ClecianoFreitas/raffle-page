@@ -77,8 +77,4 @@ button:hover {
     opacity: 0.9;
 }
 
-@media(max-width: 360px){
-    body{
-        height: 100%;
-    }
-}
+
