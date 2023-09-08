@@ -7,7 +7,7 @@ function raffle() {
     const minValue = +(document.querySelector("#min-value").value);
     const maxValue = +(document.querySelector("#max-value").value);
 
-    if(maxValue >= minValue){
+    if(maxValue > minValue){
         result.innerHTML = Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue;
     }
     else{
